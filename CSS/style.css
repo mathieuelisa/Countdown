@@ -25,6 +25,7 @@
 
 .main_text {
   position: relative;
+  color: rgb(93, 148, 167);
   bottom: -49px;
   font-family: Arial, Helvetica, sans-serif;
 }
