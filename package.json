@@ -1,0 +1,26 @@
+{
+  "name": "Countdown",
+  "version": "1.0.0",
+  "description": "A simple project in Javascript to set up a countdown.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "watchify src/app.js -o assets/JS/bundle.js",
+    "open": "google-chrome assets/index.html",
+    "start": "npm run dev & npm run open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathieuelisa/Countdown.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathieuelisa/Countdown/issues"
+  },
+  "homepage": "https://github.com/mathieuelisa/Countdown#readme",
+  "dependencies": {
+    "watchify": "^4.0.0"
+  }
+}
